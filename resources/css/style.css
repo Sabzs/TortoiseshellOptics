@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  width: 100%;
+  line-height: 1.4;
+}
+
+/*header and navigation section*/
+.header {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: Helvetica;
+  font-weight: bold;
+
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.logo-container {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: cadetblue;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.logo-img {
+  display: flex;
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+#logo-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+#logo-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+
+}
+nav span {
+  display: inline-block;
+  padding-right: 2rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.headline-container {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  height: 30rem;
+  width: 77%;
+}
+.headline {
+  position:absolute;
+  right: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding-top: 1.5rem;
+  padding-right: 5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  margin-top: 10rem;
+  background-color: white;
+}
+
+
+/*main container section*/
+.main-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  height: auto;
+}
+
+/*product type*/
+.product-type {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+  width: 15%;
+  margin-right: 6rem;
+}
+.product-img {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.resize {
+  width: 70%;
+  height: 100%;
+}
+#resize {
+  width: 50%;
+  height: 90%;
+}
+.product-name {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+#product-name {
+  display: flex;
+}
+
+/*Philosophy and appointment detalis*/
+.product-info {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+.info-title {
+  display: flex;
+  width: 35rem;
+  height: auto;
+  margin-right: 5rem;
+  flex-direction: column;
+}
+.title-name {
+  display: flex;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+.title-details {
+  display: flex;
+  margin: 0 auto;
+}
+
+/*footer section*/
+.footer {
+  display: flex;
+  background-color: azure;
+  width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 5rem;
+}
+.footer-img {
+  display: flex;
+  height: 1.5rem;
+  margin-right: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+}
+.footer-title {
+  display: flex;
+  font-family: Helvetica;
+  font-weight: bold;
+}
